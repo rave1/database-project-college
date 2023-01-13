@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7DB3B330-D797-1645-A8BD-80A917344621" name="rental">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 14:58:57 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="B5D3E557-7168-831C-9816-26AE13AFBC89">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 15:11:05 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="eq_id" id="A88CB22E-773A-EB14-B258-D24B79968E8A">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 15:11:07 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cust_id" id="41E7B7B3-12B7-56C4-2156-6D6148430F9B">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 15:11:07 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="E37F6868-8F4F-ABC7-8EF7-F244A571F74A">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 15:11:08 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end_date" id="3C47B6E3-7131-AA58-7544-ECC89DB18A4B">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 15:11:08 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_price" id="14DB145D-90D1-38DD-571A-38AC42881331">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 15:11:09 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="5E068CE8-7685-7CD3-6114-330D7416C834">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 15:11:09 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D3990B7E-0807-0EEF-C3B8-ED0215AF4B4C" name="rental PK">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 15:11:46 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B5D3E557-7168-831C-9816-26AE13AFBC89</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

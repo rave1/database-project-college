@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20824AFD-D506-8BDE-A026-955A1842A6C4" name="equipment">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 14:47:24 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C9DAE2C9-BA9B-8989-4AC4-079AED0F4FAD">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 14:47:53 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa" id="A83E5500-A98D-5DBC-3368-F9356B783B83">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 14:48:06 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="typ" id="7368C986-2D1A-F03C-4E3C-4CAAB13B3A4F">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 14:48:11 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marka" id="90D4A9DE-69EA-8E84-D78F-9B110CB915CC">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 14:48:15 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="model" id="D33D7F9A-D8BA-EA6D-212A-14B47486F352">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 14:48:19 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opis" id="59EC3E07-603B-8E40-17E2-8CF1E715F554">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 14:48:22 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ilosc" id="EEEB72B7-6275-4AEE-97A4-3FFD4CEAC535">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 14:48:25 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cena_wypozyczenia" id="F3D8818E-57A1-E10B-0E3A-79E834313453">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 14:48:30 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EAAF26CF-B9B1-B683-B5A0-E75A6A3B3B28" name="equipment PK">
+<createdBy>Jakub</createdBy>
+<createdTime>2023-01-13 14:48:02 UTC</createdTime>
+<ownerDesignName>object</ownerDesignName>
+<engineerTo>
+<item key="DBB4B4FC-071A-7F3A-D179-2D6767FB330B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C9DAE2C9-BA9B-8989-4AC4-079AED0F4FAD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

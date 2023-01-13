@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="7CA5B4B3-5034-D96F-23B7-775181D6FED4" name="customer" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6D53B803-E80B-948C-8924-D70FB16AF793" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="4C02C63E-43E9-3345-839A-5C66CE6918A1" name="employee" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6D53B803-E80B-948C-8924-D70FB16AF793" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="20824AFD-D506-8BDE-A026-955A1842A6C4" name="equipment" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6D53B803-E80B-948C-8924-D70FB16AF793" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="3FA3E6B1-2823-ECC3-F2E0-93F780F68CDA" name="invoice" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6D53B803-E80B-948C-8924-D70FB16AF793" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="7DB3B330-D797-1645-A8BD-80A917344621" name="rental" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6D53B803-E80B-948C-8924-D70FB16AF793" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
